@@ -21,33 +21,17 @@ class App extends Component {
 
   };
 
-//   shuffle = id => {
-//     var ctr = arra1.length, temp, index;
-
-// // While there are elements in the array
-//     while (ctr > 0) {
-// // Pick a random index
-//         index = Math.floor(Math.random() * ctr);
-// // Decrease ctr by 1
-//         ctr--;
-// // And swap the last element with it
-//         temp = arra1[ctr];
-//         arra1[ctr] = arra1[index];
-//         arra1[index] = temp;
-//     }
-//     return arra1;
-// }
+ 
 
 
 characterSelected = id => {
   // const characters = this.state.characters.filter(character => character.id);
-  const characters = this.state.characters.filter(character =>character.id)
-  if(character.id !==id){
-    this.setState({Score:this.state.Score +1})
-    this.setState({characters})
-  }
-  this.setState({Score:0})
+  
+  
+this.setState({Score: this.state.Score +1})
 }
+
+
 
   
   
