@@ -7,7 +7,7 @@ function CharacterCard(props) {
       <div className="img-container">
         <img alt="" src={props.image} />
       </div>
-      <span onClick={() => props.shuffleCharacter(props.id)} className="remove">
+      <span onClick={() => props.characterSelected(props.id)} className="remove">
         x
       </span>
       </div>
