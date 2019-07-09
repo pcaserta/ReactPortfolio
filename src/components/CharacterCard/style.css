@@ -1,25 +1,29 @@
 .card {
-    background: #fff;
-    border-radius: 2px;
-    margin-left:0px;
-    margin-right:0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 200px;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
-    text-align: left;
+  background: #fff;
+  border-radius: 2px;
+  height: 275px;
+  margin: .5rem;
+  position: relative;
+  width: 250px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+  overflow: hidden;
   }
 
   .card > .img-container {
-    height: 100%;
-    width:95%;
-    overflow: hidden;
+    height: 60%;
+    
     text-align: center;
+    
+    
+    
     
   }
   
   .card > .img-container > img {
-    width: 95%
+    width: 100%;
+    
+    
   }
 
   .card > .remove {
