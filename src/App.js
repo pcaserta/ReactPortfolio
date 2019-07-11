@@ -15,11 +15,15 @@ class App extends Component {
   };
 
   characterSelected = selected => {
-    console.log(selected)
-    
 
+     const characters = this.state.characters.map(character => character.id ===selected) 
+      this.setState({Score: this.state.Score +1})
       
       
+     
+      
+    
+    
   }
   render() {
     return (
