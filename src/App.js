@@ -15,14 +15,11 @@ class App extends Component {
   };
 
   characterSelected = selected => {
-    if(selected ===false){
-    const characters = this.state.characters.map(character => selected ===true); 
+    console.log(selected)
+    
 
-      this.setState({characters})
-      this.setState({Score: this.state.Score + 1})
-    }else{
-      this.setState({Score: 0})
-    }
+      
+      
   }
   render() {
     return (
