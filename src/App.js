@@ -5,62 +5,41 @@ import characters from "./characters.json";
 import CharacterCard from "./components/CharacterCard";
 import Score from "./components/Score";
 import HighScore from "./components/HighScore";
-import Holder from "./components/Holder";
 
 class App extends Component {
   // Setting this.state.characters to the images json array
-  
 
   state = {
     characters,
-    Score:0,
-    Holder
-    
-    
-   
-
+    Score: 0
   };
 
- 
+  characterSelected = selected => {
+    if(selected ===false){
+    const characters = this.state.characters.map(character => selected ===true); 
 
-
-characterSelected = id => {
-  // const characters = this.state.characters.filter(character => character.id);
-  
-  
-this.setState({Score: this.state.Score +1})
-}
-
-
-
-  
-  
-
-
-  
-  
-
-
-
-
-
-
-
-  
-
+      this.setState({characters})
+      this.setState({Score: this.state.Score + 1})
+    }else{
+      this.setState({Score: 0})
+    }
+  }
   render() {
     return (
       <Wrapper>
-        <Title>Clicky Game </Title> 
-        <Title>  <Score>Score:{this.state.Score}</Score><HighScore>Hi-Score:0 </HighScore></Title> 
+        <Title>Clicky Game </Title>
+        <Title>
+          
+          <Score>Score:{this.state.Score}</Score>
+          <HighScore>Hi-Score:0 </HighScore>
+        </Title>
         {this.state.characters.map(character => (
           <CharacterCard
-          characterSelected = {this.characterSelected}
-          key = {character.id}
-          selected = {character.selected}
-          id = {character.id}
-          
-          image={character.image}
+            characterSelected={this.characterSelected}
+            key={character.id}
+            selected={character.selected}
+            id={character.id}
+            image={character.image}
           />
         ))}
       </Wrapper>
