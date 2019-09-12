@@ -2,7 +2,7 @@
   "name": "React__Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pcaserta.github.io/ReactPortfolio/",
+  "homepage": "http://pcaserta.github.io/React__Portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
