@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.0a88a750.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.d2948dbf.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.d2948dbf.chunk.js.map",
-    "runtime~main.js": "/ReactPortfolio/static/js/runtime~main.2dc2a78e.js",
-    "runtime~main.js.map": "/ReactPortfolio/static/js/runtime~main.2dc2a78e.js.map",
-    "static/css/2.04aae6c4.chunk.css": "/ReactPortfolio/static/css/2.04aae6c4.chunk.css",
-    "static/js/2.cf9da4eb.chunk.js": "/ReactPortfolio/static/js/2.cf9da4eb.chunk.js",
-    "static/js/2.cf9da4eb.chunk.js.map": "/ReactPortfolio/static/js/2.cf9da4eb.chunk.js.map",
-    "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.de079fd37658dfbb6eff46b9b969544c.js": "/ReactPortfolio/precache-manifest.de079fd37658dfbb6eff46b9b969544c.js",
-    "service-worker.js": "/ReactPortfolio/service-worker.js",
-    "static/css/2.04aae6c4.chunk.css.map": "/ReactPortfolio/static/css/2.04aae6c4.chunk.css.map",
-    "static/css/main.0a88a750.chunk.css.map": "/ReactPortfolio/static/css/main.0a88a750.chunk.css.map"
+    "main.css": "/React__Portfolio/static/css/main.0a88a750.chunk.css",
+    "main.js": "/React__Portfolio/static/js/main.e9a88fe7.chunk.js",
+    "main.js.map": "/React__Portfolio/static/js/main.e9a88fe7.chunk.js.map",
+    "runtime~main.js": "/React__Portfolio/static/js/runtime~main.74644989.js",
+    "runtime~main.js.map": "/React__Portfolio/static/js/runtime~main.74644989.js.map",
+    "static/css/2.04aae6c4.chunk.css": "/React__Portfolio/static/css/2.04aae6c4.chunk.css",
+    "static/js/2.cf9da4eb.chunk.js": "/React__Portfolio/static/js/2.cf9da4eb.chunk.js",
+    "static/js/2.cf9da4eb.chunk.js.map": "/React__Portfolio/static/js/2.cf9da4eb.chunk.js.map",
+    "index.html": "/React__Portfolio/index.html",
+    "precache-manifest.64b68c2c1b7b3d6bbc421bdd18e4ecbf.js": "/React__Portfolio/precache-manifest.64b68c2c1b7b3d6bbc421bdd18e4ecbf.js",
+    "service-worker.js": "/React__Portfolio/service-worker.js",
+    "static/css/2.04aae6c4.chunk.css.map": "/React__Portfolio/static/css/2.04aae6c4.chunk.css.map",
+    "static/css/main.0a88a750.chunk.css.map": "/React__Portfolio/static/css/main.0a88a750.chunk.css.map"
   }
 }
