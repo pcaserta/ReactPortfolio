@@ -1,50 +1,36 @@
-import React, { Component } from "react";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import characters from "./characters.json";
-import CharacterCard from "./components/CharacterCard";
-import Score from "./components/Score";
-import HighScore from "./components/HighScore";
+import React from "react";
+import "./App.css";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
-class App extends Component {
-  // Setting this.state.characters to the images json array
-
-  state = {
-    characters,
-    Score: 0
-  };
-
-  characterSelected = selected => {
-
-     const characters = this.state.characters.map(character => character.id ===selected) 
-      this.setState({Score: this.state.Score +1})
-      
-      
-     
-      
-    
-    
-  }
-  render() {
-    return (
-      <Wrapper>
-        <Title>Clicky Game </Title>
-        <Title>
-          
-          <Score>Score:{this.state.Score}</Score>
-          <HighScore>Hi-Score:0 </HighScore>
-        </Title>
-        {this.state.characters.map(character => (
-          <CharacterCard
-            characterSelected={this.characterSelected}
-            key={character.id}
-            selected={character.selected}
-            id={character.id}
-            image={character.image}
-          />
-        ))}
-      </Wrapper>
-    );
-  }
+function App() {
+  return (
+    <div className="demo-big-content">
+      <Layout>
+        <Header className="header-color" title="Title" scroll>
+          <Navigation>
+            <Link to="/resume">Resume</Link>
+            <Link to="/aboutme">About me</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
+          </Navigation>
+        </Header>
+        <Drawer title="Title">
+          <Navigation>
+            <Link to="/resume">Resume</Link>
+            <Link to="/aboutme">About me</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
+          </Navigation>
+        </Drawer>
+        <Content>
+          <div className="page-content" />
+          <Main />
+        </Content>
+      </Layout>
+    </div>
+  );
 }
+
 export default App;
