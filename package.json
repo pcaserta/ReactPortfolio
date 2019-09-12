@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://pcaserta.github.io/React__Portfolio/",
   "dependencies": {
+    "dom": "0.0.3",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
