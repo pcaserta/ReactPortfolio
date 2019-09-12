@@ -2,7 +2,7 @@
   "name": "my-clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pcaserta.github.io/React__Portfolio",
+  "homepage": "https://pcaserta.github.io/React__Portfolio",
   "dependencies": {
     "dom": "0.0.3",
     "gh-pages": "^2.0.1",
