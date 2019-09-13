@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
-class LandingPage extends Component {
+class Landing extends Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
@@ -66,4 +66,4 @@ class LandingPage extends Component {
   }
 }
 
-export default LandingPage;
+export default Landing;
