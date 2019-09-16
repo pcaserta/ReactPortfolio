@@ -5,6 +5,7 @@
   "homepage": "https://pcaserta.github.io/React__Portfolio/",
   "dependencies": {
     "dom": "0.0.3",
+    "express": "^4.17.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
