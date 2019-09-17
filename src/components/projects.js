@@ -4,7 +4,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h1>Projectss Page</h1>
+        <h1>Projectss Paaage</h1>
       </div>
     );
   }
