@@ -4,7 +4,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <h1>Resumee Page</h1>
+        <h1>Resumeee Page</h1>
       </div>
     );
   }
