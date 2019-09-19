@@ -19,7 +19,7 @@ class Landing extends Component {
 
               <p>
                 HTML5/CSS3 | Bootstrap | JavaScript | React.js | Node.js |
-                Express | MongoDB
+                Express.js | MongoDB
               </p>
               <div className="social-links">
                 {/*LinkdedIn */}
