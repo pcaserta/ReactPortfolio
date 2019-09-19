@@ -29,7 +29,7 @@ class App extends Component {
             <Drawer
               title={
                 <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                  myportfolio
+                  MyPortfolio
                 </Link>
               }
             >
