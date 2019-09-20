@@ -13,6 +13,24 @@ class Projects extends Component {
           <h1>This is React</h1>
         </div>
       );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div>
+          <h1>This is Node.JS</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div>
+          <h1>This is JavaScript</h1>
+        </div>
+      );
+    } else if (this.state.activeTab === 3) {
+      return (
+        <div>
+          <h1>This is MongoDB</h1>
+        </div>
+      );
     }
   }
   render() {
