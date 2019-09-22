@@ -39,7 +39,15 @@ class Projects extends Component {
               full-stack function website.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored>
+                <a
+                  href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button>
             </CardActions>
@@ -299,7 +307,15 @@ class Projects extends Component {
               full-stack function website.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored>
+                <a
+                  href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button>
             </CardActions>
