@@ -47,7 +47,7 @@ class Projects extends Component {
           <Tab>MongoDB</Tab>
         </Tabs>
         <section className="projects-grid">
-          {this.toggleCategories()}
+          
           <Grid className="projects-grid">
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
