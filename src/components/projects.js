@@ -21,30 +21,108 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <CardTitle
-            style={{
-              color: "#fff",
-              height: "176px",
-              background:
-                "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
-            }}
-          >
-            React Project #1
-          </CardTitle>
-          <CardText>
-            This is my first react project brought to you by me. It is a
-            full-stack function website.
-          </CardText>
-          <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>CodePen</Button>
-            <Button colored>LiveDemo</Button>
-          </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
+        <div>
+          {/* Project 1 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+              }}
+            >
+              React Project #1
+            </CardTitle>
+            <CardText>
+              This is my first react project brought to you by me. It is a
+              full-stack function website.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+              }}
+            >
+              React Project #2
+            </CardTitle>
+            <CardText>
+              This is my first react project brought to you by me. It is a
+              full-stack function website.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+              }}
+            >
+              React Project #3
+            </CardTitle>
+            <CardText>
+              This is my first react project brought to you by me. It is a
+              full-stack function website.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 4 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+              }}
+            >
+              React Project #4
+            </CardTitle>
+            <CardText>
+              This is my first react project brought to you by me. It is a
+              full-stack function website.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
@@ -79,13 +157,12 @@ class Projects extends Component {
           <Tab>JavaScript</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
+
+        <Grid className="projects-grid">
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     );
   }
