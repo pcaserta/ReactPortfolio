@@ -57,6 +57,10 @@
   margin-bottom: 20px;
 }
 
+.contact-grid h2 {
+  font-family: "anton", sans-serif;
+}
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
