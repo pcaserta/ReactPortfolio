@@ -40,11 +40,15 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
                   >
-                    <i className="fa fa-envelope" aria-hidden="true" />
+                    <i
+                      className="fa fa-envelope"
+                      aria-hidden="true"
+                      style={{ paddingRight: ".90em" }}
+                    />
                     patrick.caserta@live.longwood.edu
                   </ListItemContent>
                 </ListItem>
-
+                {/* skype contact */}
                 <ListItem>
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
@@ -53,12 +57,16 @@ class Contact extends Component {
                     live:patrick.caserta
                   </ListItemContent>
                 </ListItem>
-
+                {/* linkden contact */}
                 <ListItem>
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
                   >
-                    <i className="fa fa-phone-square" aria-hidden="true" />{" "}
+                    <i
+                      className="fa fa-phone-square"
+                      aria-hidden="true"
+                      style={{ paddingRight: "1.em" }}
+                    />
                     <a
                       href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
                       rel="noopener noreferrer"
