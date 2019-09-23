@@ -24,7 +24,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-
+            {/* phone contact */}
             <div className="contact-list">
               <List>
                 <ListItem>
@@ -35,11 +35,38 @@ class Contact extends Component {
                     804-997-5633
                   </ListItemContent>
                 </ListItem>
+                {/* email contact */}
                 <ListItem>
-                  <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "anton" }}
+                  >
+                    <i className="fa fa-envelope" aria-hidden="true" />
+                    patrick.caserta@live.longwood.edu
+                  </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "anton" }}
+                  >
+                    <i className="fa fa-skype" aria-hidden="true" />
+                    live:patrick.caserta
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "anton" }}
+                  >
+                    <i className="fa fa-phone-square" aria-hidden="true" />{" "}
+                    <a
+                      href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Linkden Profile
+                    </a>
+                  </ListItemContent>
                 </ListItem>
               </List>
             </div>
