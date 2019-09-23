@@ -61,6 +61,16 @@
   font-family: "anton", sans-serif;
 }
 
+.contact-grid p {
+  font-family: "oxygen", sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
 .avatar-img {
   height: 250px;
   padding-top: 5em;

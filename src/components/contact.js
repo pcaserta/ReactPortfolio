@@ -21,7 +21,11 @@ class Contact extends Component {
               survived not only five centuries
             </p>
           </Cell>
-          <Cell col={6}>Half Page</Cell>
+          <Cell col={6}>
+            <h2>Contact Me</h2>
+            <hr></hr>
+          
+          </Cell>
         </Grid>
       </div>
     );
