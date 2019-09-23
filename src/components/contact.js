@@ -25,17 +25,24 @@ class Contact extends Component {
             <h2>Contact Me</h2>
             <hr />
 
-            <List>
-              <ListItem>
-                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-            </List>
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "25px", fontFamily: "anton" }}
+                  >
+                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    804-997-5633
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                </ListItem>
+              </List>
+            </div>
           </Cell>
         </Grid>
       </div>
