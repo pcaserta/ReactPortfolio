@@ -1,10 +1,14 @@
 import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        <h1>Resumeee Page</h1>
+        <Grid>
+          <Cell col={4}>Left Side</Cell>
+          <Cell col={8}>Right Side Side</Cell>
+        </Grid>
       </div>
     );
   }
