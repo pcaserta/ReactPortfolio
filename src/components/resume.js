@@ -14,8 +14,27 @@ class Resume extends Component {
                 style={{ height: "200px" }}
               />
             </div>
-            <h2 stle={{paddingTop: '2em'}}>Patrick Caserta</h2>
-            <h4 style={{color:'grey'}}>Programmer</h4>
+            <h2 stle={{ paddingTop: "2em" }}>Patrick Caserta</h2>
+            <h4 style={{ color: "grey" }}>Programmer</h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <h5>Address</h5>
+            <p>North Chesterfield, Virginia</p>
+            <h5>Phone</h5>
+            <p>804-997-5633</p>
+            <h5>Email</h5>
+            <p>patrick.caserta@live.longwood.edu</p>
+            <h5>GitHub</h5>
+            <p>https://github.com/pcaserta</p>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             Right Side Side
