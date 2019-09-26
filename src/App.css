@@ -36,6 +36,13 @@
   display: flex;
 }
 
+/*Resume page css */
+.resume-right-col{
+  background:#27221F
+}
+
+ /*contact page css*/
+
 .contact-body {
   margin: auto;
   position: fixed;
