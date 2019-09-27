@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
+import Experience from "./experience";
 
 class Resume extends Component {
   render() {
@@ -42,7 +43,7 @@ class Resume extends Component {
             <Education
               startYear={"January 2019"}
               endYear={"July 2019"}
-              schoolName="University of Richmond"
+              schoolName="University of Richmond Coding Boot Camp"
               schoolDescription="Learned the process of serving a webpage and how the browser renders code. Built front-end websites from scratch, as well as with ready-made frameworks. Createt full-stack, single-page web applications with RESTful routes and AJAX methods. Generated dynamic content and implemented user-authentication schemes by incorporating different types of databases — MySQL, MongoDB and Firebase. Developed apps while applying the accepted and standard basics of social coding — source control, issue tracking, functional feedback, etc. Ran through the entire development cycle of complex projects in both independent and collaborative settings."
             />
 
@@ -51,6 +52,17 @@ class Resume extends Component {
               endYear={"May 2017"}
               schoolName="Longwood University"
               schoolDescription="Graduated from Longwood University with a BS in Business and Economics, and a focus in Information Systems and Cyber Security. Here I designed, engineered, and implemented secure networks and information systems.Learned and conducted research with information systems and cyber security experts. "
+            />
+
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+
+            <h2>Experience</h2>
+
+            <Experience
+              startYear={"September 2018"}
+              endYear={"March 2019"}
+              jobName={"Data Analyst for Bank of America"}
+              jobDescription="Provided end to end data analysis on business strategy and function. Includes trending analysis, views on data treatments and success analytics for determining future strategy focused on improving operational performance. Gained insight on business strategies using data mining, data aggregation, business planning, inventory analysis, program analysis, E2E platform and performance/milestone analytics."
             />
           </Cell>
         </Grid>
