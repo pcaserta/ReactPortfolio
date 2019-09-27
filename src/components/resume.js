@@ -25,7 +25,7 @@ class Resume extends Component {
               University. I started with VisualBasic, SQL, and self-taught
               Python. After entering the work force I realized that I wanted to
               learn more and further my skills in the programming world. I chose
-              to take the web development path my signing up for the University
+              to take the web development path by signing up for the University
               of Richmond Coding Boot Camp where I excelled and learned how to
               build full-stack web applications.
             </p>
