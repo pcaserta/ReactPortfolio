@@ -28,8 +28,8 @@ class Resume extends Component {
               electronic typesetting, remaining essentially unchanged.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h5>Address</h5>
-            <p>North Chesterfield, Virginia</p>
+            <h5>Location</h5>
+            <p>Richmond, Virginia</p>
             <h5>Phone</h5>
             <p>804-997-5633</p>
             <h5>Email</h5>
