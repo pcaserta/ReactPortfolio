@@ -62,7 +62,14 @@ class Resume extends Component {
               startYear={"September 2018"}
               endYear={"March 2019"}
               jobName={"Data Analyst for Bank of America"}
-              jobDescription="Provided end to end data analysis on business strategy and function. Includes trending analysis, views on data treatments and success analytics for determining future strategy focused on improving operational performance. Gained insight on business strategies using data mining, data aggregation, business planning, inventory analysis, program analysis, E2E platform and performance/milestone analytics."
+              jobDescription="Provided end to end data analysis on business strategy and function. Includes trending analysis, views on data treatments and success analytics for determining future strategy focused on improving operational performance. Gained insight on business strategies using data mining, data aggregation, business planning, inventory analysis, program analysis, E2E platform and performance/milestone analytics. Tracked compliance to implement standards for the prioritized functions. Monitored and tested controls and data quality measures for validity."
+            />
+
+            <Experience
+              startYear={"June 2017"}
+              endYear={"August 2017"}
+              jobName={"IT Intern for Rivada Networks"}
+              jobDescription="Worked with IT and engineering teams in to prepare technology proposals for state governments. Worked closely with IT and Engineering teams who familiarized me with details of bandwidth management technologies, the intricacies of the bandwidth market, and the communication tools necessary to communicate and sell complex technology solutions to nontechnical audience. Constructed compliance matrixes from state proposals for the engineering team using Microsoft Excel."
             />
           </Cell>
         </Grid>
