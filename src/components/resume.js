@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
+import Skills from "./skills";
 
 class Resume extends Component {
   render() {
@@ -71,6 +72,10 @@ class Resume extends Component {
               jobName={"IT Intern for Rivada Networks"}
               jobDescription="Worked with IT and engineering teams in to prepare technology proposals for state governments. Worked closely with IT and Engineering teams who familiarized me with details of bandwidth management technologies, the intricacies of the bandwidth market, and the communication tools necessary to communicate and sell complex technology solutions to nontechnical audience. Constructed compliance matrixes from state proposals for the engineering team using Microsoft Excel."
             />
+
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <h2>Skills</h2>
+            <Skills></Skills>
           </Cell>
         </Grid>
       </div>
