@@ -32,6 +32,22 @@
   height: 100%;
 }
 
+.aboutme-grid {
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f83600, #fe8c00);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .projects-grid {
   display: flex;
 }
