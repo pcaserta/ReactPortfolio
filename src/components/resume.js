@@ -45,6 +45,13 @@ class Resume extends Component {
               schoolName="University of Richmond"
               schoolDescription="Learned the process of serving a webpage and how the browser renders code. Built front-end websites from scratch, as well as with ready-made frameworks. Createt full-stack, single-page web applications with RESTful routes and AJAX methods. Generated dynamic content and implemented user-authentication schemes by incorporating different types of databases — MySQL, MongoDB and Firebase. Developed apps while applying the accepted and standard basics of social coding — source control, issue tracking, functional feedback, etc. Ran through the entire development cycle of complex projects in both independent and collaborative settings"
             />
+
+            <Education
+              startYear={"August 2013"}
+              endYear={"May 2017"}
+              schoolName="University of Richmond"
+              schoolDescription="Learned the process of serving a webpage and how the browser renders code. Built front-end websites from scratch, as well as with ready-made frameworks. Createt full-stack, single-page web applications with RESTful routes and AJAX methods. Generated dynamic content and implemented user-authentication schemes by incorporating different types of databases — MySQL, MongoDB and Firebase. Developed apps while applying the accepted and standard basics of social coding — source control, issue tracking, functional feedback, etc. Ran through the entire development cycle of complex projects in both independent and collaborative settings"
+            />
           </Cell>
         </Grid>
       </div>
