@@ -29,26 +29,34 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
               }}
             >
-              React Project #1
+              APOTHECA
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              This is a full stack application built with MoongooseDB, Express,
+              React, and Node.js
             </CardText>
             <CardActions border>
               <Button colored>
                 <a
-                  href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
+                  href="https://github.com/kenzrad/apotheca"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   GitHub
                 </a>
               </Button>
-              <Button colored>CodePen</Button>
+              <Button colored>
+                <a
+                  href="https://enigmatic-meadow-75915.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Heroku
+                </a>
+              </Button>
               <Button colored>LiveDemo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
