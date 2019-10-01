@@ -38,7 +38,7 @@ class Projects extends Component {
               This is a full stack application built with MoongooseDB, Express,
               React, and Node.js
             </CardText>
-            <CardActions border>
+            <CardActions border style={{ textAlign: "center" }}>
               <Button colored>
                 <a
                   href="https://github.com/kenzrad/apotheca"
@@ -57,11 +57,8 @@ class Projects extends Component {
                   Heroku
                 </a>
               </Button>
-              <Button colored>LiveDemo</Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
