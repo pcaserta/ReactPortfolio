@@ -61,29 +61,43 @@ class Projects extends Component {
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 2 */}
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
               }}
             >
-              React Project #2
+              APOTHECA
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              This is a full stack application built with MoongooseDB, Express,
+              React, and Node.js
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/kenzrad/apotheca"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://enigmatic-meadow-75915.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Heroku
+                </a>
+              </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -92,23 +106,36 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
               }}
             >
-              React Project #3
+              APOTHECA
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              This is a full stack application built with MoongooseDB, Express,
+              React, and Node.js
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/kenzrad/apotheca"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://enigmatic-meadow-75915.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Heroku
+                </a>
+              </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 4 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -117,23 +144,36 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
               }}
             >
-              React Project #4
+              APOTHECA
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              This is a full stack application built with MoongooseDB, Express,
+              React, and Node.js
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/kenzrad/apotheca"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://enigmatic-meadow-75915.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Heroku
+                </a>
+              </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
         </div>
       );
