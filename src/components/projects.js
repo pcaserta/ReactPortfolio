@@ -23,7 +23,10 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ minWidth: "450", margin: "auto", marginRight: "0px" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -68,19 +71,19 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
+                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
               }}
             >
-              APOTHECA
+              Portfolio
             </CardTitle>
             <CardText>
-              This is a full stack application built with MoongooseDB, Express,
-              React, and Node.js
+              This is the site you are currently on. Built with React.js,
+              React-MDL, HTML and CSS.
             </CardText>
             <CardActions border style={{ textAlign: "center" }}>
               <Button colored>
                 <a
-                  href="https://github.com/kenzrad/apotheca"
+                  href="https://github.com/pcaserta/React__Portfolio"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -89,87 +92,11 @@ class Projects extends Component {
               </Button>
               <Button colored>
                 <a
-                  href="https://enigmatic-meadow-75915.herokuapp.com/"
+                  href="https://pcaserta.github.io/React__Portfolio/#/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Heroku
-                </a>
-              </Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}></CardMenu>
-          </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
-              }}
-            >
-              APOTHECA
-            </CardTitle>
-            <CardText>
-              This is a full stack application built with MoongooseDB, Express,
-              React, and Node.js
-            </CardText>
-            <CardActions border style={{ textAlign: "center" }}>
-              <Button colored>
-                <a
-                  href="https://github.com/kenzrad/apotheca"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  GitHub
-                </a>
-              </Button>
-              <Button colored>
-                <a
-                  href="https://enigmatic-meadow-75915.herokuapp.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Heroku
-                </a>
-              </Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}></CardMenu>
-          </Card>
-          {/* Project 4 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1540545426/tzs50mjrlopv85r3qjpq.jpg) center / cover"
-              }}
-            >
-              APOTHECA
-            </CardTitle>
-            <CardText>
-              This is a full stack application built with MoongooseDB, Express,
-              React, and Node.js
-            </CardText>
-            <CardActions border style={{ textAlign: "center" }}>
-              <Button colored>
-                <a
-                  href="https://github.com/kenzrad/apotheca"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  GitHub
-                </a>
-              </Button>
-              <Button colored>
-                <a
-                  href="https://enigmatic-meadow-75915.herokuapp.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Heroku
+                  GitHub Pages
                 </a>
               </Button>
             </CardActions>
@@ -187,23 +114,35 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://c4.wallpaperflare.com/wallpaper/570/369/129/node-js-javascript-hexagon-abstract-wallpaper-preview.jpg) center / cover"
               }}
             >
-              Node Project #1
+              Liri-Node-App
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              Back-end application built with Javascript, Node.JS, Moment.JS
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/pcaserta/liri-node-app"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://pcaserta.github.io/React__Portfolio/#/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -212,23 +151,36 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://c4.wallpaperflare.com/wallpaper/570/369/129/node-js-javascript-hexagon-abstract-wallpaper-preview.jpg) center / cover"
               }}
             >
-              Node Project #2
+              Bamazon
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              Back-end application built with Javascript, Node.JS, MySQL,
+              Inquirer
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/pcaserta/liri-node-app"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://pcaserta.github.io/React__Portfolio/#/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>

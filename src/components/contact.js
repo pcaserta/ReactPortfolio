@@ -63,7 +63,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "anton" }}
                   >
                     <i
-                      className="fa fa-phone-square"
+                      className="fa fa-linkedin-square"
                       aria-hidden="true"
                       style={{ paddingRight: "1.em" }}
                     />
