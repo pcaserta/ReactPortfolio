@@ -200,12 +200,28 @@ class Projects extends Component {
               Vinylly
             </CardTitle>
             <CardText>
-              Front-end application built with JavaScript HTML CSS and external APIs.
+              Front-end application built with JavaScript HTML CSS and external
+              APIs.
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+            <CardActions border style={{ textAlign: "center" }}>
+              <Button colored>
+                <a
+                  href="https://github.com/kenzrad/vinylly"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://pcaserta.github.io/React__Portfolio/#/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -232,9 +248,7 @@ class Projects extends Component {
               <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
