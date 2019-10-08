@@ -224,7 +224,6 @@ class Projects extends Component {
               </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
             </CardMenu>
           </Card>
           {/* Project 2 */}
@@ -310,111 +309,9 @@ class Projects extends Component {
           </Card>
         </div>
       );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div className="projects-grid">
-          {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
-              }}
-            >
-              MongoDB Project #1
-            </CardTitle>
-            <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
-              }}
-            >
-              MongoDB Project #2
-            </CardTitle>
-            <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
-              }}
-            >
-              MongoDB Project #3
-            </CardTitle>
-            <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 4 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
-              }}
-            >
-              MongoDB Project #4
-            </CardTitle>
-            <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-        </div>
-      );
+  
+       
+      
     }
   }
   render() {
@@ -428,7 +325,6 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>Node.JS</Tab>
           <Tab>JavaScript</Tab>
-          <Tab>MongoDB</Tab>
         </Tabs>
 
         <Grid>
