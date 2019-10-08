@@ -223,8 +223,7 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 2 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -233,14 +232,14 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
               }}
             >
-              JavaScript Project #2
+              Mario Trivia
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              This an early porject I built using JavaScipt and JavaScript
+              timers.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -309,9 +308,6 @@ class Projects extends Component {
           </Card>
         </div>
       );
-  
-       
-      
     }
   }
   render() {
