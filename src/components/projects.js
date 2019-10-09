@@ -238,13 +238,28 @@ class Projects extends Component {
               Mario Trivia
             </CardTitle>
             <CardText>
-              This an early porject I built using JavaScipt and JavaScript
-              timers.
+              This an early porject I built using JavaScipt, HTML, CSS, and
+              JavaScript timers.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/pcaserta/trivia_game"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://pcaserta.github.io/trivia_game/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub Pages
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
