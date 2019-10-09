@@ -9,7 +9,6 @@ import {
   CardActions,
   Button,
   CardMenu,
-  IconButton,
   CardText
 } from "react-mdl";
 
@@ -226,7 +225,10 @@ class Projects extends Component {
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{ minWidth: "450", margin: "auto", marginRight: "0px" }}
+          >
             <CardTitle
               style={{
                 color: "#fff",
@@ -241,7 +243,7 @@ class Projects extends Component {
               This an early porject I built using JavaScipt, HTML, CSS, and
               JavaScript timers.
             </CardText>
-            <CardActions border>
+            <CardActions border style={{ textAlign: "center" }}>
               <Button colored>
                 <a
                   href="https://github.com/pcaserta/trivia_game"
@@ -270,56 +272,36 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
+                  "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
               }}
             >
-              JavaScript Project #3
+              Gif Generator
             </CardTitle>
             <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
+              One of my earlier projects built with JavaScript, Jquery, HTML,
+              and CSS.
             </CardText>
-            <CardActions border>
+            <CardActions border style={{ textAlign: "center" }}>
               <Button colored>
                 <a
-                  href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
+                  href="https://github.com/pcaserta/gif_generator"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   GitHub
                 </a>
               </Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>
+                <a
+                  href="https://pcaserta.github.io/gif_generator/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub Pages
+                </a>
+              </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 4 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://i2.wp.com/www.andreasreiterer.at/wp-content/uploads/2017/11/react-logo.jpg?resize=825%2C510&ssl=1) center / cover"
-              }}
-            >
-              JavaScript Project #4
-            </CardTitle>
-            <CardText>
-              This is my first react project brought to you by me. It is a
-              full-stack function website.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
         </div>
       );
