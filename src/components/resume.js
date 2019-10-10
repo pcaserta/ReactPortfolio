@@ -17,10 +17,10 @@ class Resume extends Component {
                 style={{ height: "200px" }}
               />
             </div>
-            <h2 stle={{ paddingTop: "2em" }}>Patrick Caserta</h2>
-            <h4 style={{ color: "grey" }}>Programmer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <p>
+            <h2 style={{ textAlign: "center" }}>Patrick Caserta</h2>
+            <h4 style={{ color: "grey", textAlign: "center" }}>Programmer</h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
+            <p style={{ textAlign: "center" }}>
               I have been coding since I started my education at Longwood
               University. I started with VisualBasic, SQL, and self-taught
               Python. After entering the work force I realized that I wanted to
@@ -29,7 +29,7 @@ class Resume extends Component {
               of Richmond Coding Boot Camp where I excelled and learned how to
               build full-stack web applications.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <h5>Location</h5>
             <p>Richmond, Virginia</p>
             <h5>Phone</h5>
@@ -83,7 +83,7 @@ class Resume extends Component {
             />
             <Skills skill="HTML/CSS" progress={75} />
             <Skills skill="Node.js" progress={60} />
-            <Skills skill="React"  progress={39} />
+            <Skills skill="React" progress={39} />
           </Cell>
         </Grid>
       </div>

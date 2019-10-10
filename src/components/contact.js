@@ -48,7 +48,7 @@ class Contact extends Component {
             <ContactInfo
               link="https://www.linkedin.com/in/patrick-caserta-46530312b/"
               logo="fa fa-linkedin-square"
-              info="Linkden Profile (click link)"
+              info="Linkden Profile (click icon)"
             ></ContactInfo>
           </Cell>
         </Grid>
