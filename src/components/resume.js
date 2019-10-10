@@ -38,7 +38,7 @@ class Resume extends Component {
             <p>patrick.caserta@live.longwood.edu</p>
             <h5>GitHub</h5>
             <p>https://github.com/pcaserta</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
