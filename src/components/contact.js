@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
+import ContactInfo from "./contactInfo";
 
 class Contact extends Component {
   render() {
@@ -21,12 +22,30 @@ class Contact extends Component {
               survived not only five centuries
             </p>
           </Cell>
-          <Cell col={6}>
+          <Cell className="contact-list" col={6}>
             <h2>Contact Me</h2>
             <hr />
             {/* phone contact */}
-            <div className="contact-list">
-              <List>
+
+            <ContactInfo
+              logo="fa fa-phone-square"
+              info="804-997-5633"
+            ></ContactInfo>
+             <ContactInfo
+              logo="fa fa-envelope"
+              info="patrick.caserta@live.longwood.edu"
+            ></ContactInfo>
+             <ContactInfo
+              logo="fa fa-skype"
+              info="live:patrick.caserta"
+            ></ContactInfo>
+             <ContactInfo
+              logo="fa fa-linkedin-square"
+          
+              info="Linkden Profile"
+            ></ContactInfo>
+
+            {/* <List>
                 <ListItem>
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
@@ -34,9 +53,9 @@ class Contact extends Component {
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     804-997-5633
                   </ListItemContent>
-                </ListItem>
-                {/* email contact */}
-                <ListItem>
+                </ListItem> */}
+            {/* email contact */}
+            {/* <ListItem>
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
                   >
@@ -47,18 +66,18 @@ class Contact extends Component {
                     />
                     patrick.caserta@live.longwood.edu
                   </ListItemContent>
-                </ListItem>
-                {/* skype contact */}
-                <ListItem>
+                </ListItem> */}
+            {/* skype contact */}
+            {/* <ListItem>
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
                     live:patrick.caserta
                   </ListItemContent>
-                </ListItem>
-                {/* linkden contact */}
-                <ListItem>
+                </ListItem> */}
+            {/* linkden contact */}
+            {/* <ListItem>
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "anton" }}
                   >
@@ -76,8 +95,7 @@ class Contact extends Component {
                     </a>
                   </ListItemContent>
                 </ListItem>
-              </List>
-            </div>
+              </List> */}
           </Cell>
         </Grid>
       </div>
