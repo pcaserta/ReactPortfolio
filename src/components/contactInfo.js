@@ -7,11 +7,18 @@ class ContactInfo extends Component {
       <Grid>
         <Cell col={2}>
           <div>
-            <i
-              className={this.props.logo}
-              aria-hidden="true"
-              style={{ paddingRight: ".90em" }}
-            />
+            <a
+              href={this.props.link}
+              rel="noopener noreferrer"
+              target="_blank"
+              style={{ color: "black" }}
+            >
+              <i
+                className={this.props.logo}
+                aria-hidden="true"
+                style={{ paddingRight: ".90em" }}
+              />
+            </a>
           </div>
         </Cell>
         <Cell col={10}>

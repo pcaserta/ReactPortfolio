@@ -25,77 +25,31 @@ class Contact extends Component {
           <Cell className="contact-list" col={6}>
             <h2>Contact Me</h2>
             <hr />
-            {/* phone contact */}
 
+            {/* phone contact */}
             <ContactInfo
               logo="fa fa-phone-square"
               info="804-997-5633"
             ></ContactInfo>
-             <ContactInfo
+
+            {/* email contact */}
+            <ContactInfo
               logo="fa fa-envelope"
               info="patrick.caserta@live.longwood.edu"
             ></ContactInfo>
-             <ContactInfo
+
+            {/* skype contact */}
+            <ContactInfo
               logo="fa fa-skype"
               info="live:patrick.caserta"
             ></ContactInfo>
-             <ContactInfo
-              logo="fa fa-linkedin-square"
-          
-              info="Linkden Profile"
-            ></ContactInfo>
 
-            {/* <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "anton" }}
-                  >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    804-997-5633
-                  </ListItemContent>
-                </ListItem> */}
-            {/* email contact */}
-            {/* <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "anton" }}
-                  >
-                    <i
-                      className="fa fa-envelope"
-                      aria-hidden="true"
-                      style={{ paddingRight: ".90em" }}
-                    />
-                    patrick.caserta@live.longwood.edu
-                  </ListItemContent>
-                </ListItem> */}
-            {/* skype contact */}
-            {/* <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "anton" }}
-                  >
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    live:patrick.caserta
-                  </ListItemContent>
-                </ListItem> */}
             {/* linkden contact */}
-            {/* <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "anton" }}
-                  >
-                    <i
-                      className="fa fa-linkedin-square"
-                      aria-hidden="true"
-                      style={{ paddingRight: "1.em" }}
-                    />
-                    <a
-                      href="https://www.linkedin.com/in/patrick-caserta-46530312b/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      Linkden Profile
-                    </a>
-                  </ListItemContent>
-                </ListItem>
-              </List> */}
+            <ContactInfo
+              link="https://www.linkedin.com/in/patrick-caserta-46530312b/"
+              logo="fa fa-linkedin-square"
+              info="Linkden Profile (click link)"
+            ></ContactInfo>
           </Cell>
         </Grid>
       </div>
