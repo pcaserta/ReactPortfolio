@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 
+
+
 class About extends Component {
   render() {
     return (
@@ -8,17 +10,12 @@ class About extends Component {
         <Grid className="aboutme-grid">
           <Cell col={12}>
             <img
-              src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png"
+              src="images/betterPhoto.jpg"
               alt="avatar"
               className="avatar-img"
             />
-            <p
-              style={{
-                paddingTop: "2em",
-                paddingLeft: "30em",
-                paddingRight: "30em"
-              }}
-            >
+
+            <p className="aboutMe-text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
