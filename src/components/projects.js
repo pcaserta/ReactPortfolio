@@ -225,10 +225,7 @@ class Projects extends Component {
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 2 */}
-          <Card
-            shadow={5}
-            style={{ minWidth: "450", margin: "auto", marginRight: "0px" }}
-          >
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -266,7 +263,15 @@ class Projects extends Component {
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card
+            shadow={5}
+            style={{
+              minWidth: "450",
+              margin: "auto",
+              marginLeft: "auto",
+              marginRight: "auto"
+            }}
+          >
             <CardTitle
               style={{
                 color: "#fff",

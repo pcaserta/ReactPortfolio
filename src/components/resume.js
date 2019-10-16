@@ -53,7 +53,7 @@ class Resume extends Component {
               startYear={"August 2013"}
               endYear={"May 2017"}
               schoolName="Longwood University"
-              schoolDescription="Graduated from Longwood University with a BS in Business and Economics, and a focus in Information Systems and Cyber Security. Here I designed, engineered, and implemented secure networks and information systems.Learned and conducted research with information systems and cyber security experts. "
+              schoolDescription="Graduated from Longwood University with a BS in Business and Economics, and a focus in Information Systems and Cyber Security. Here I designed, engineered, and implemented secure networks and information systems. I also learned and conducted research with information systems and cyber security experts. "
             />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
