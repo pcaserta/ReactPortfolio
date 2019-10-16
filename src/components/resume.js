@@ -20,14 +20,19 @@ class Resume extends Component {
             <h2 style={{ textAlign: "center" }}>Patrick Caserta</h2>
             <h4 style={{ color: "grey", textAlign: "center" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
-            <p style={{ textAlign: "center" }}>
-              I have been coding since I started my education at Longwood
-              University. I started with VisualBasic, SQL, and self-taught
-              Python. After entering the work force I realized that I wanted to
-              learn more and further my skills in the programming world. I chose
-              to take the web development path by signing up for the University
-              of Richmond Coding Boot Camp where I excelled and learned how to
-              build full-stack web applications.
+            <p>
+              Web/Software Developer and versatile IT professional with superior
+              problem-solving skills, coupled with creativity utilizing
+              technical skills. Graduated Longwood University in 2018 with a B.S
+              in Business and a focus in Computer Information Systems and
+              Technology. Currently Data Analyst for Bank of America, completing
+              numerous projects gaining technical knowledge of various systems
+              and softwares, developing critical decision making skills, and
+              utilizing team coordination. Currently enrolled in full-stack
+              coding bootcamp at the University of Richmond to further my
+              knowledge in web development. Well-versed in JavaScript, HTML,CSS,
+              and jQuery. Always furthering my education, to stay on top of
+              current technologies, and keep up with current trends.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <h5>Location</h5>
