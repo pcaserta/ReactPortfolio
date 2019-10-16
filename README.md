@@ -5,7 +5,7 @@ This is my web developer portfolio, giving users a little insight about me and m
 It is deployed here https://pcaserta.github.io/React__Portfolio/#/
 
 ## Getting Started
-1.Landing Page
+1.Landing Page<br/>
 2.Resume Page
 3.About me Page
 4.Projects Page
