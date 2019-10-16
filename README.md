@@ -16,7 +16,7 @@ HTML5
 
 ---
 ## Future Improvements
-Still need to make completly mobile responsive. Cards for JavaScript projects are stacking unintentionally for mobile users.
+Still need to make site 100% mobile responsive. Cards for JavaScript projects are stacking unintentionally for mobile users.
 
 ---
 
