@@ -6,10 +6,10 @@ It is deployed here https://pcaserta.github.io/React__Portfolio/#/
 
 ## Getting Started
 1.Landing Page<br/>
-2.Resume Page
-3.About me Page
-4.Projects Page
-5.Contact Page
+2.Resume Page<br/>
+3.About me Page<br/>
+4.Projects Page<br/>
+5.Contact Page<br/>
 
 ---
 
