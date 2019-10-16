@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio
 
-## Available Scripts
+This is my web developer portfolio, giving users a little insight about me and my experience with coding. It also showcases some projects I have completed.
 
-In the project directory, you can run:
+It is deployed here https://pcaserta.github.io/React__Portfolio/#/
 
-### `npm start`
+## Getting Started
+1.Landing Page
+2.Resume Page
+3.About me Page
+4.Projects Page
+5.Contact Page
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Landing Page
+`node liri.js concert-this <artist-name>`
 
-### `npm test`
+`concert-this` will search the BandsInTown API for upcoming concerts related to the artist that was searched. Venue loaction, date, and time are provided for each result. Moment.js is being utilized to format the date to a more readable format. 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1230" alt="screen shot 2018-12-09 at 4 05 24 pm" src="images/concert-this.PNG">
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Spotify Search
+`node liri.js spotify-this-song <song-name-here>`
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+`spotify-this-song` will search Spotify API for information on the song that was searched. Song name, artist name, link to a preview of the song, and the album that the song was released in is included for each result.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1230" alt="screen shot 2018-12-09 at 4 05 24 pm" src="images/spotify-this-song.PNG">
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## OMDB Movie Search
+`node liri.js movie-this <song-name-here>`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`movie-this` will search OMDB movies API for information on the movie that was searched. Title of the movie, year the movie came out, IMDB Rating of the movie, Rotten Tomatoes rating of the movie, country where the movie was produced, language of the movie, plot of the movie, and actors in the movie will all be shown with each result. If no movie is selected MR. Nobody is defaulted in the search.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img width="1230" alt="screen shot 2018-12-09 at 4 05 24 pm" src="images/movie-this.PNG">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## Do what it says search
+`do-what-it-says`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`do-what-it-says` is a command that reads the file random.text and executes it according to the parameters in the file. Default is set to `spotify-this-song I Want It That Way`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width="1230" alt="screen shot 2018-12-09 at 4 05 24 pm" src="images/do-what-it-says.PNG">
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Built With
+Javascript, Node.js, Moment.js, Bandsintown API, Spotify API, OMDb API
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Author
+**Patrick Caserta**
