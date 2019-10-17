@@ -193,134 +193,140 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div className="projects-grid">
-          {/* Project 1 */}
-          <Grid>
-            <Cell col={4}>
-              <Card shadow={5} style={{ minWidth: "450" }}>
-                <CardTitle
+        <div>
+          <div className="projects-grid">
+            {/* Project 1 */}
+            <Grid>
+              <Cell col={6}>
+                <Card shadow={5} style={{ minWidth: "450" }}>
+                  <CardTitle
+                    style={{
+                      color: "#fff",
+                      height: "176px",
+                      background:
+                        "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
+                    }}
+                  >
+                    Vinylly
+                  </CardTitle>
+                  <CardText>
+                    Front-end application built with JavaScript HTML CSS and
+                    external APIs.
+                  </CardText>
+                  <CardActions border style={{ textAlign: "center" }}>
+                    <Button colored>
+                      <a
+                        href="https://github.com/kenzrad/vinylly"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </Button>
+                    <Button colored>
+                      <a
+                        href="https://pcaserta.github.io/React__Portfolio/#/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        Live Demo
+                      </a>
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
+                </Card>
+              </Cell>
+              {/* Project 2 */}
+              <Cell col={6}>
+                <Card shadow={5} style={{ minWidth: "450" }}>
+                  <CardTitle
+                    style={{
+                      color: "#fff",
+                      height: "176px",
+                      background:
+                        "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
+                    }}
+                  >
+                    Mario Trivia
+                  </CardTitle>
+                  <CardText>
+                    This an early porject I built using JavaScipt, HTML, CSS,
+                    and JavaScript timers.
+                  </CardText>
+                  <CardActions border style={{ textAlign: "center" }}>
+                    <Button colored>
+                      <a
+                        href="https://github.com/pcaserta/trivia_game"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </Button>
+                    <Button colored>
+                      <a
+                        href="https://pcaserta.github.io/trivia_game/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        GitHub Pages
+                      </a>
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
+                </Card>
+              </Cell>
+            </Grid>
+          </div>
+          {/* Project 3 */}
+          <div className="projects-grid">
+            <Grid>
+              <Cell col={12}>
+                <Card
+                  shadow={5}
                   style={{
-                    color: "#fff",
-                    height: "176px",
-                    background:
-                      "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
+                    minWidth: "450"
                   }}
                 >
-                  Vinylly
-                </CardTitle>
-                <CardText>
-                  Front-end application built with JavaScript HTML CSS and
-                  external APIs.
-                </CardText>
-                <CardActions border style={{ textAlign: "center" }}>
-                  <Button colored>
-                    <a
-                      href="https://github.com/kenzrad/vinylly"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      GitHub
-                    </a>
-                  </Button>
-                  <Button colored>
-                    <a
-                      href="https://pcaserta.github.io/React__Portfolio/#/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      Live Demo
-                    </a>
-                  </Button>
-                </CardActions>
-                <CardMenu style={{ color: "#fff" }}></CardMenu>
-              </Card>
-            </Cell>
-            {/* Project 2 */}
-            <Cell col={4}>
-              <Card shadow={5} style={{ minWidth: "450" }}>
-                <CardTitle
-                  style={{
-                    color: "#fff",
-                    height: "176px",
-                    background:
-                      "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
-                  }}
-                >
-                  Mario Trivia
-                </CardTitle>
-                <CardText>
-                  This an early porject I built using JavaScipt, HTML, CSS, and
-                  JavaScript timers.
-                </CardText>
-                <CardActions border style={{ textAlign: "center" }}>
-                  <Button colored>
-                    <a
-                      href="https://github.com/pcaserta/trivia_game"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      GitHub
-                    </a>
-                  </Button>
-                  <Button colored>
-                    <a
-                      href="https://pcaserta.github.io/trivia_game/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      GitHub Pages
-                    </a>
-                  </Button>
-                </CardActions>
-                <CardMenu style={{ color: "#fff" }}></CardMenu>
-              </Card>
-            </Cell>
-            {/* Project 3 */}
-            <Cell col={4}>
-              <Card
-                shadow={5}
-                style={{
-                  minWidth: "450"
-                }}
-              >
-                <CardTitle
-                  style={{
-                    color: "#fff",
-                    height: "176px",
-                    background:
-                      "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
-                  }}
-                >
-                  Gif Generator
-                </CardTitle>
-                <CardText>
-                  One of my earlier projects built with JavaScript, Jquery,
-                  HTML, and CSS.
-                </CardText>
-                <CardActions border style={{ textAlign: "center" }}>
-                  <Button colored>
-                    <a
-                      href="https://github.com/pcaserta/gif_generator"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      GitHub
-                    </a>
-                  </Button>
-                  <Button colored>
-                    <a
-                      href="https://pcaserta.github.io/gif_generator/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      GitHub Pages
-                    </a>
-                  </Button>
-                </CardActions>
-                <CardMenu style={{ color: "#fff" }}></CardMenu>
-              </Card>
-            </Cell>
-          </Grid>
+                  <CardTitle
+                    style={{
+                      color: "#fff",
+                      height: "176px",
+                      background:
+                        "url(https://c8.alamy.com/comp/DWJC73/javascript-against-futuristic-black-and-blue-background-DWJC73.jpg) center / cover"
+                    }}
+                  >
+                    Gif Generator
+                  </CardTitle>
+                  <CardText>
+                    One of my earlier projects built with JavaScript, Jquery,
+                    HTML, and CSS.
+                  </CardText>
+                  <CardActions border style={{ textAlign: "center" }}>
+                    <Button colored>
+                      <a
+                        href="https://github.com/pcaserta/gif_generator"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </Button>
+                    <Button colored>
+                      <a
+                        href="https://pcaserta.github.io/gif_generator/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        GitHub Pages
+                      </a>
+                    </Button>
+                  </CardActions>
+                  <CardMenu style={{ color: "#fff" }}></CardMenu>
+                </Card>
+              </Cell>
+            </Grid>
+          </div>
         </div>
       );
     }
