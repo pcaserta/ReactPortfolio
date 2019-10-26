@@ -210,8 +210,7 @@ class Projects extends Component {
                     Vinylly
                   </CardTitle>
                   <CardText>
-                    Front-end application built with JavaScript HTML CSS and
-                    external APIs.
+                    Webpage built with JavaScript HTML CSS and external APIs.
                   </CardText>
                   <CardActions border style={{ textAlign: "center" }}>
                     <Button colored>
