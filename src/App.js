@@ -35,7 +35,7 @@ class App extends Component {
             >
               <Navigation>
                 <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About me</Link>
+                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
               </Navigation>
